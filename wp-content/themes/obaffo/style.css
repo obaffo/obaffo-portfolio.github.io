@@ -1,0 +1,125 @@
+/*
+Theme Name: Obaffo
+Theme URI: https://goo.gl/rEhJoS
+Author: Samiul Islam Adol
+Author URI: https://fb.com/samiul.adol
+Version: 1.0
+Tags: Responsive, Wordpress
+Description: This is a portfolio theme. You can easily use this theme in defferent purposes.
+*/
+
+/*
+.page_item a{
+    border: 1px solid red;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.page_item{
+    list-style-type: none;
+    margin: 0 auto;
+}
+.cat-item a{
+    border: 1px solid red;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+    display: block;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+.cat-item{
+    list-style: none;
+}*/
+
+.single{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tags ul{
+    list-style: none;
+}
+.tags ul li{
+    display: inline;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.tags ul li a{
+    padding: 10px;
+    border: 1px solid #555;
+    
+    text-decoration: none;
+    border-radius: 4px;
+   
+}
+.author i,h4{
+    display: inline-block;
+    margin-right: 10px;
+}
+.author .fa{
+    font-size: 20px;
+}
+.time .fa{
+    font-size: 20px;
+}
+.time i,h4{
+    margin-right: 10px;
+}
+.current-menu-item,.current-page-item{
+    background-color: #777!important;
+}
+/*Pagination*/
+.page-numbers{
+    border: 1px solid #777;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+.page-numbers a:hover{
+    text-decoration: none;
+}
+.page-numbers>.current{
+    background: yellow;
+}
+.blog-img{
+    max-height: 250px ;
+    max-width: 400px;
+    border-radius: 0 50px;
+    overflow: hidden;
+    border:1px solid #777;
+}
+.blog-img img{
+    width: 100%;
+    height: auto;
+}
+.single_team{
+    border: 1px solid #948a8a;
+    text-align: center;
+    background: #b5b599;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+.team_img{
+    
+}
+.team_img img{
+    width: 100%;
+    height: auto;
+}
+.single_team:hover{
+    box-shadow: 10px 10px 5px #888888;
+}
+/*skill*/
+.skill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
